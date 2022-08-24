@@ -50,7 +50,7 @@ const handleDisplay = (value) => {
             document.querySelector(".error").setAttribute("style", "display: none;");
         }
         catch {
-            document.querySelector(".error").setAttribute("style", "display: flex");
+            document.querySelector(".error").setAttribute("style", "display: flex;");
         }
     }
     else if (value === '+' || value === '-' || value === '/' || value === '*') {
