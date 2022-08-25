@@ -35,6 +35,10 @@ body {
     cursor: pointer;
 }
 
+.button:active {
+    background-color: #ac4040;
+}
+
 .equal {
     background-color: #ffeb3b;
 }
